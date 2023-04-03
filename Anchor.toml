@@ -1,14 +1,15 @@
 [features]
 seeds = false
 skip-lint = false
-[programs.localnet]
+
+[programs.devnet]
 postfeedapp = "8gXmb5owBUq1Fir1XsEc7zachbU7K396F6GuW2sxLHJx"
 
 [registry]
-url = "https://api.apr.dev"
+url = "https://anchor.projectserum.com"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet"
 wallet = "/home/billyzhang/.config/solana/id.json"
 
 [scripts]
